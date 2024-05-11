@@ -85,8 +85,8 @@ clear(): method removes all the elements from a map
 has(): method returns true if a key exists in a map
 values(): method returns an iterator object with the values in a map
 "use strict": helps you to write cleaner code, like preventing you from using undeclared variables.
-Classes: class ClassName {constructor(arg1, arg2) {this.arg1 = name;this.arg2 = year; }method_1() { ... }method_2() { ... }}
-Class create object: const myCar = new Car("Ford", 2014)
+Classes: class ClassName {constructor(name, year) {this.name = name;this.year = year; }method_1() { ... }method_2() { ... }}
+Class create object: const myCar = new Car("Ford", 2014) // using a Class
 Class use method: myCar.age()
 Modules: import, export default, export
 JSON: JavaScript Object Notation, a format for storing and transporting data, often used when data is sent from a server to a web page
