@@ -12,6 +12,10 @@ operators: arithmetic/assignment (== equal to (comparison operator always conver
 expressions: combination of values, variables, and operators, which computes to a value
 comments: used to explain code, prevent execution
 variables: automatically/var/let/const (scope, redeclare, reassign, hoisted, bind this) (const: the variable identifier cannot be reassigned)
+Difference Between var, let and const
+var   scope: no   redeclare: yes  reassign: yes   hoisted: yes  bind this: yes
+let   scope: yes  redeclare: no   reassign: yes   hoisted: no   bind this: no
+const scope: yes  redeclare: no   reassign: no    hoisted: no   bind this: no
 logical operators: &&,||,!
 type operators: typeof(to find the data type), instanceof(to see if the prototype property of a constructor appears anywhere in the prototype chain of an object)
 function: parameter, argument, invoke
