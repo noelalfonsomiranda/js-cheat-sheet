@@ -95,5 +95,6 @@ Class use method: myCar.age()
 Modules: import, export default, export
 JSON: JavaScript Object Notation, a format for storing and transporting data, often used when data is sent from a server to a web page
 Debugger: console.log, debugger(stops the execution of JavaScript)
+event loop: responsible for executing the code, collecting and processing events, and executing queued sub-tasks. allows programs to remain responsive while handling potentially long-running tasks asynchronously (Memory heap/callstack -> web api -> memory/callback queue -> repeat)
 
 ```
